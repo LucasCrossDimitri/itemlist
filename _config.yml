@@ -1,7 +1,7 @@
 # Metadata
 title: "CrossDimitri Purchase List"
 favicon: assets/img/favicon.png
-description:
+description: nice ckc
 
 baseurl: '/itemlist' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
@@ -73,7 +73,7 @@ mods:
 
 # Build settings
 remote_theme: SirRandoo/Type-on-Strap
-plugins:
+# plugins:
 
 #remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
