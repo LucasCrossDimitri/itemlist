@@ -72,8 +72,10 @@ mods:
   author: true
 
 # Build settings
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
-# remote_theme: mmistakes/so-simple-theme
+remote_theme: SirRandoo/Type-on-Strap
+plugins:
+
+#remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/dark.css"
 
 
