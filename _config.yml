@@ -23,7 +23,7 @@ store:
 #   limit       → Whether or not the list will display when a trait can bypass the trait limit.
 #   description → Whether or not the list will display the trait's description.
   traits:
-    conflicts: true
+    conflicts: false
     stats: true
     karma: true
     limit: true
@@ -33,6 +33,7 @@ store:
   kinds:
     mod: true
     karma: true
+    description: true
     usage: true
   items:
     category: true
@@ -40,16 +41,19 @@ store:
     karma: true
     quantity: true
     mod: true
+    description: true
     usage: true
   events:
     usage: true
     mod: true
+    description: true
   animals:
     usage: true
     mod: true
     weight: true
     quantity: true
     karma: true
+    description: true
 
 commands:
   # Whether or not the command list will display the command's shortcut disclaimer.
@@ -68,11 +72,8 @@ mods:
   author: true
 
 # Build settings
-paginate: 10  # amount of posts to show per page
-paginate_path: /page:num/
-
-#Theme
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/dark.css"
+
 
