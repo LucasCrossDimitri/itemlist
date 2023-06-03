@@ -2,7 +2,7 @@
 title: "CrossDimitri Purchase List"
 favicon: assets/img/favicon.png
 description: nice ckc
-color_theme: dark
+color_theme: auto
 
 baseurl: '/itemlist' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
