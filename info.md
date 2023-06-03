@@ -2,7 +2,6 @@
 title: Info
 layout: page
 permalink: /info
-color_theme: dark
 ---
 
 {%- assign utils = false -%}
